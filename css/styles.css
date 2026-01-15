@@ -68,11 +68,11 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #ffffff;
 }
 .hero-button:hover,
 .hero-button:focus {
     background: #404bbf;
 }
 
- /* #endregion hero styles */
+/* #endregion hero styles */
