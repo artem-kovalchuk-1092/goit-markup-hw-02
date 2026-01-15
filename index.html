@@ -4,26 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Main page</title>
+<!-- #region link list -->
+    <!-- Link to Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+    
+    <!-- Link to Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link to CSS -->
     <link rel="stylesheet" href="./css/styles.css" />
+<!-- #endregion link list -->
   </head>
+
   <body>
     <!-- #region header-->
-    <header>
-      <a href="./index.html">WebStudio</a>
-      <nav>
-        <ul>
-          <li><a href="./index.html">Studio</a></li>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contacts</a></li>
+    <header class="header-page">
+      <a class="logo header-logo" href="./index.html">Web<span class="logo-2ndcolor">Studio</span></a>
+      <nav class="header-nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link" href="./index.html">Studio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contacts</a></li>
         </ul>
       </nav>
-      <address>
-        <ul>
-          <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <address class="header-contacts">
+        <ul class="contacts-list">
+          <li class="contacts-item">
+            <a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li>
-            <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+          <li class="contacts-item">
+            <a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
       </address>
@@ -32,13 +44,13 @@
     <main>
       <!-- #region hero -->
 
-      <section class="bckgrnd">
-        <h1>Effective Solutions for Your Business</h1>
-        <button class="banner_button">Order Service</button>
+      <section class="hero-block">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button class="hero-button" type="button">Order Service</button>
       </section>
       <!-- #endregion hero -->
 
-      <!-- #region features -->
+      <!-- #region about -->
 
       <section>
         <h2>Our Features</h2>
@@ -73,7 +85,7 @@
           </li>
         </ul>
       </section>
-      <!-- #endregion features -->
+      <!-- #endregion about -->
 
       <!-- #region team-->
 
