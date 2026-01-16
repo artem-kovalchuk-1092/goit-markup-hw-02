@@ -15,7 +15,6 @@ a {
  .logo {
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2e2f42;
@@ -27,7 +26,6 @@ a {
  .nav-link:visited {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
  }
@@ -36,13 +34,13 @@ a {
     color: #404bbf;
  }
 
-    .contacts-link {
+.contacts-link {
     font-size: 16px;
     font-style: normal;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
  }
+
  .contacts-link:hover,
  .contacts-link:focus {
     color: #404bbf;
@@ -57,16 +55,15 @@ a {
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #ffffff;
 }
 .hero-button {
+    font-family: 'Roboto', sans-serif;
     background-color: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
@@ -82,7 +79,6 @@ a {
 .about-main-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
 }
@@ -90,12 +86,10 @@ a {
 .about-title{
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 .about-text{
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -109,7 +103,7 @@ a {
 .team-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
+    
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -120,13 +114,11 @@ a {
 .team-name {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
 }
 .team-role {
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
@@ -137,19 +129,17 @@ a {
 .portfolio-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11;
+    
     letter-spacing: 0.02em;
     text-align: center;
 }
 .portfolio-product {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 .portfolio-projects {
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -162,7 +152,6 @@ a {
 .footer-logo {
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #f4f4fd;
@@ -170,7 +159,6 @@ a {
 .footer-text {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
